@@ -1,4 +1,4 @@
-FROM jupyter/datascience-notebook:14fdfbf9cfc1
+FROM jupyter/minimal-notebook:latest
 
 #RUN pip install nbgitpuller
 #RUN jupyter serverextension enable --py nbgitpuller --sys-prefix
